@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARGENTIN-ISA</title>
+    <!--link css-->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!--link bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!--link bootstrap jv-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <!--link iconos-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand text-secondary fs-2" href="#">ARGENTIN-ISA</a>
+
+                <!--boton-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Minav">
+                    <i class="bi bi-list text-secondary fs-1"></i>
+                </button>
+
+                <!--hamburgesa-->
+                <div class="collapse navbar-collapse justify-content-end" id="Minav">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-secondary fs-4" href="#soy">Quien soy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-secondary fs-4" href="#lugares">Lugares</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-secondary fs-4" href="#highlights">Highlights</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-secondary fs-4" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!--seccion de mi-->
+        <section id="soy" class="row justify-content-around align-items-stretch text-center">
+            <!--mi foto-->
+            <div class="col-md-6 col-lg-6 p-4 d-flex flex-column align-items-center bg-primary">
+                <img class="border border-secondary rounded-3 w-50 shadow-lg" src="imagenes/mifoto.jpeg" alt="Mifoto">
+            </div>
+
+            <!--de que trata-->
+            <div class="col-md-12 col-lg-6 d-flex flex-column p-4 justify-content-center text-start align-items-center">
+                <h1 class="text-uppercase">Memorias Imborrables del Intercambio</h1>
+                <p>Más que un <em>diario de viaje,</em> esta es mi colección de recuerdos imborrables y experiencias que
+                    jamás
+                    olvidaré. Aquí encontrarán la esencia de mi intercambio: fotos auténticas, reflexiones honestas y
+                    mis opiniones sobre los lugares y actividades que hicieron de esta la mejor aventura de mi vida. ¡Un
+                    camino lleno de momentos hermosos y únicos!</p>
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-secondary text-secondary" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop">
+                    Conoceme más
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="staticBackdropLabel">Isabel Arango</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center ">
+                                <i class="bi bi-airplane-engines-fill fs-3 text-primary"></i>
+                                <p class="text-center">Hola, soy Isa, una colombiana de 21 años. Mi aventura en
+                                    Argentina comenzó gracias a un intercambio de seis meses en Buenos Aires, y desde
+                                    entonces no he parado de explorar. Me mueve la curiosidad por las nuevas culturas,
+                                    los paisajes imponentes y lo desconocido. Soy fanática de los planes culturales y
+                                    gastronómicos, y estoy convencida de que la mejor parte de cada viaje es la buena
+                                    compañía. ¡Bienvenidos a mi bitácora!</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--franja-->
+            <section class="text-center align-items-center bg-secondary">
+                <i class="bi bi-bluesky fs-3 text-primary"></i>
+            </section>
+        </section>
+
+        <!--segunda seccion-->
+        <section id="lugares" class=" text-center">
+            <div class="container">
+                <h1 class="mb-3 text-uppercase">Los lugares a los que fui</h1>
+                <p class="w-50 text-center mx-auto mb-4">Tuve la oportunidad de explorar la capital de punta a punta,
+                    navegando por cada rincón de Buenos Aires. Lo mejor fue expandir la ruta hacia el norte del país,
+                    donde realicé un recorrido inolvidable por Salta. Allí, entre las Salinas Grandes y la belleza de
+                    Cafayate, me encontré con paisajes imponentes y conocí personas hermosas que hicieron esta aventura
+                    aún más especial.</p>
+
+                <!--buenos aires -->
+                <section class="row justify-content-around align-items-center text-center">
+                    <div class="col-md-5 col-lg-3 shadow-lg rounded p-3 d-flex flex-column align-items-center">
+                        <img class="border border-secondary rounded-pill w-50" src="imagenes/buenosaires.jpeg"
+                            alt="buenosaires">
+                        <h2 class="text-decoration-underline">Buenos Aires</h2>
+                        <p>La ciudad que te acoge con su gente, te transforma con su cultura vibrante y te regala la
+                            mejor experiencia de vida </p>
+
+                        <button type="button" class="btn btn-secondary"> <a href="salinas.html#seccion-buenosaires"
+                                class="text-decoration-none text-secondary">Más info</a>
+                        </button>
+                    </div>
+
+                    <!--salinas-->
+                    <div class="col-md-5 col-lg-3 shadow-lg rounded d-flex flex-column align-items-center p-4">
+                        <img class="border border-secondary rounded-pill w-50" src="imagenes/salinas.jpeg"
+                            alt="salinas">
+                        <h2 class="text-decoration-underline">Salinas</h2>
+                        <p>La extensión blanca que a 4.000 metros de altura, parece un paisaje irreal
+                            sacado de una película.</p>
+                        <button type="button" class="btn btn-secondary"> <a href="salinas.html#seccion-salinas"
+                                class="text-decoration-none text-secondary">Más info</a>
+                        </button>
+                    </div>
+
+                    <!--cafayate-->
+                    <div class="col-md-5 col-lg-3 d-flex flex-column align-items-center shadow-lg rounded p-4">
+                        <img class="border border-secondary rounded-pill w-50" src="imagenes/cafayate.jpeg"
+                            alt="cafayate">
+                        <h2 class="text-decoration-underline">Cafayate</h2>
+                        <p>El rincón que combina "Radiator Springs"
+                            argentino con el sabor inolvidable de sus vinos.</p>
+                        <button type="button" class="btn btn-secondary"> <a href="salinas.html#seccion-cafayate"
+                                class="text-decoration-none text-secondary">Más info</a>
+                        </button>
+                    </div>
+                </section>
+        </section>
+
+        <!--seccion tres-->
+        <section id="highlights" class="row justify-content-around align-items-stretch text-center bg-secondary">
+
+            
+            <!--el rosedal-->
+            <div class="col-md-6 col-lg-6 d-flex flex-column p-4 lign-items-center bg-primary">
+                <h2 class="text-uppercase fst-italic fw-bold fs-1">el rosedal</h2>
+
+                <div class="d-flex justify-content-center">
+                    <img class="border border-secondary w-25 shadow-lg" src="imagenes/rosedal.jpg" alt="elrosedal">
+                    <img class="border border-secondary w-50 shadow-lg" src="imagenes/isamelipau.jpeg" alt="isamelipau">
+                </div>
+                <div class="d-flex justify-content-center">
+                    <img class="border border-secondary w-50 shadow-lg" src="imagenes/amiguitas.jpeg" alt="amiguitas">
+                    <img class="border border-secondary w-25 shadow-lg" src="imagenes/patos.jpeg" alt="elrosedal">
+                </div>
+            </div>
+
+            <!--el cielo azul-->
+            <div class="col-md-6 col-lg-6 d-flex flex-column p-4 lign-items-center">
+                <h2 class="text-uppercase fst-italic fw-bold fs-1">El cielo azul</h2>
+
+                <div class="d-flex justify-content-center">
+                    <img class="border border-secondary w-25 shadow-lg" src="imagenes/cielo1.jpeg" alt="cielo">
+                    <img class="border border-secondary w-25 shadow-lg" src="imagenes/cielo2.jpeg" alt="cielo">
+
+                </div>
+                <div class="d-flex justify-content-center">
+                    <img class="border border-secondary w-25 shadow-lg" src="imagenes/cielo3.jpeg" alt="cielo">
+                    <img class="border border-secondary w-25 shadow-lg" src="imagenes/cielo4.jpeg" alt="cielo">
+                </div>
+            </div>
+
+            <!--nempla-->
+            <div class="col-md-6 col-lg-6 d-flex flex-column p-4 lign-items-center">
+                <h2 class="text-uppercase fst-italic fw-bold fs-1">Nempla</h2>
+
+                <div class="d-flex justify-content-center">
+                    <img class="border border-secondary w-50 shadow-lg" src="imagenes/nempla1.jpeg" alt="nempla">
+                    <img class="border border-secondary w-25 shadow-lg" src="imagenes/nempla2.png" alt="nempla">
+
+                </div>
+                <div class="d-flex justify-content-center">
+                    <img class="border border-secondary w-25 shadow-lg" src="imagenes/nempla3.png" alt="nempla">
+                    <img class="border border-secondary w-50 shadow-lg" src="imagenes/nempla4.png" alt="cielo">
+                </div>
+            </div>
+
+            <!--jacarandas-->
+            <div class="col-md-6 col-lg-6 d-flex flex-column p-4 lign-items-center bg-primary">
+                <h2 class="text-uppercase fst-italic fw-bold fs-1">Las jacarandas</h2>
+
+                <div class="d-flex justify-content-center">
+                    <img class="border border-secondary w-25 shadow-lg" src="imagenes/jacaranda1.jpeg" alt="jacaranda">
+                    <img class="border border-secondary w-25 shadow-lg" src="imagenes/jacranda2.jpeg" alt="jacaranda">
+                </div>
+                <div class="d-flex justify-content-center">
+                    <img class="border border-secondary w-25 shadow-lg" src="imagenes/jacaranda3.jpeg" alt="jacaranda">
+                    <img class="border border-secondary w-25 shadow-lg" src="imagenes/jacaranda4.jpeg" alt="jacaranda">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--footer-->
+    <footer id="contacto" class="text-white py-5 bg-primary">
+        <div class="container">
+            <div class="row text-center text-md-center text-secondary ">
+
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <h3 class="fw-bold">Contacto</h3>
+                    <p><i class="bi bi-envelope"></i> <a class="text-decoration-none text-secondary"
+                            href="mailto:isarangoleon@gmail.com">isarangoleon@gmail.com </a>
+                    <p><i class="bi bi-telephone"></i> +54 11 71405942</p>
+                </div>
+
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <h3 class="fw-bold">Redes Sociales</h3>
+                    <a href="https://www.instagram.com/isabel.arango04/" class="text-secondary d-block" ><i class="bi bi-instagram">Instagram</i></a>
+                    <a href="https://www.behance.net/isabelarango7" class="text-secondary d-block"><i
+                            class="bi bi-behance">Behance</i>
+                </div>
+                </div> 
+        </div>
+    </footer>
+
+</body>
+
+</html>
